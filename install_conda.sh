@@ -1,4 +1,5 @@
 wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
+chmod 777 Miniconda-latest-Linux-x86_64.sh
 ./Miniconda-latest-Linux-x86_64.sh
 source ~/.bashrc
 conda --version
